@@ -11,5 +11,11 @@
         "*.local"
       ]
     }
-  ]
+  ],
+  "emulators": {
+    "functions": {
+      "host": "localhost",
+      "port": 5002
+    }
+  }
 }

@@ -28,7 +28,7 @@ class UserService {
     }
 
     const user = new UserModel(username, password, courseId, name, birth);
-    await UserRepository.createUser(user);
+    await UserRepository.createUser(user.toPlainObject());
     return user;
   }
 
